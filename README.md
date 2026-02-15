@@ -1,3 +1,8 @@
+## Bugfix 
+- BrushNet pick_operations() got an unexpected keyword argument 'scaled_fp8'
+- Fix the import error and KSampler brushNet_out_sample_wrapper() got an unexpected keyword argument 'latent_shapes' error
+- Import error by fix the version of diffusers==0.29.
+
 ## ComfyUI-BrushNet
 
 These are custom nodes for ComfyUI native implementation of 
